@@ -23,13 +23,13 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print(ANSI_CYAN+"a = "+ANSI_RESET);
-        if (scanner.hasNextInt()) {
+        if (scanner.hasNextDouble()) {
             a = scanner.nextDouble();
         } else {
             System.out.println(ANSI_RED+"Zehmet olmasa reqem daxil edin"+ANSI_RESET);
         }
         System.out.print(ANSI_CYAN+"b = "+ANSI_RESET);
-        if (scanner.hasNextInt()) {
+        if (scanner.hasNextDouble()) {
             b = scanner.nextDouble();
         } else {
             System.out.println(ANSI_RED+"Zehmet olmasa reqem daxil edin"+ANSI_RESET);
