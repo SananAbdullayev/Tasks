@@ -24,7 +24,6 @@ public class Main {
             }
         }
         System.out.println(count);
-
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
 
